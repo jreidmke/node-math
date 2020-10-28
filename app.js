@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 //Make sure to import error here.
-
+const ExpressError = require("./ExpressError");
 //Here you'll put in your routes
 
 //404 Handler
